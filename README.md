@@ -48,9 +48,13 @@ Adicionar sensores de notificações, para que o usúario saiba que tem novos de
 
 ## Atualizado/Finalizado
 Na tela de "Login" e de "Cadastro" envia mais dados para a tela do perfil como: nome e email
+
 Na tela de "Doar" há um link para direcionar a localização do brechó.
-Na tela de "Doar" adicionamos um link do youtube de como desapegar e como doar roupas.
+
+Na tela de "Doar" adicionamos um link do youtube de como desapegar e como doar roupas
+
 Na tela de "Descontos" os descontos ao clica-los direcionam para suas lojas.
+
 Adicionamos uma nova activity onde conterá tabelas que informara os requisistos das peças, a descrição do estado delas e a quantidade de pontos de acordo desses requisitos. 
 
 ### o video é grande então esta fora do README.md - BrechoBarbie.mp4
