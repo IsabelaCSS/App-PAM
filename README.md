@@ -57,6 +57,7 @@ Na tela de "Descontos" os descontos ao clica-los direcionam para suas lojas.
 
 Adicionamos uma nova activity onde conterá tabelas que informara os requisistos das peças, a descrição do estado delas e a quantidade de pontos de acordo desses requisitos. 
 
+Adicionei nova activity diferente da activity Login para receber os valores da activity cadastro 
 ### o video é grande então esta fora do README.md - BrechoBarbie.mp4
 
 
