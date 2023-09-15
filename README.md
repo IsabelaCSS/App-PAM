@@ -53,6 +53,6 @@ Na tela de "Doar" adicionamos um link do youtube de como desapegar e como doar r
 Na tela de "Descontos" os descontos ao clica-los direcionam para suas lojas.
 Adicionamos uma nova activity onde conterá tabelas que informara os requisistos das peças, a descrição do estado delas e a quantidade de pontos de acordo desses requisitos. 
 
-### o video é grande então esta fora do Readme
+### o video é grande então esta fora do README.md
 
 
