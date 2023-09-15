@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContainerComponents">
+        <item name="android:layout_width">379dp</item>
+        <item name="android:layout_height">487dp</item>
+        <item name="android:background">@drawable/container_components</item>
+    </style>
+</resources>

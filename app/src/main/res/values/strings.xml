@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">OFC_Barbie_Brecho</string>
+
+    //Active main
+    <string name="txtsejabemvindo">SEJA BEM-VINDO!</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="txtcopy">copyright@2023</string>
+
+    //Active Quem Somos Nós
+    <string name="txtquemsomos">QUEM SOMOS?</string>
+    <string name="txtassistente1">Olá, aqui é a Assistente de ajuda da Brecho da Barbie!</string>
+    <string name="txtassistente2">Este aplicativo te ajuda a não jogar sua roupa bem conservada no lixo e sim doa-lá ou vende-lá.</string>
+    <string name="txtassistente3">Um Projeto de sustentabilidade com intuito a conservar o planeta, onde as </string>
+    <string name="txtassistente3.1">roupas são os principais lixos acumulados.</string>
+
+    //Rodapé
+    <string name="txtsobrenosrodape">Sobre Nós</string>
+    <string name="txtdoarrodape">Doar</string>
+    <string name="txtperfilrodape">Perfil</string>
+
+    //Active Doar
+    <string name="txtdoar">DOAR</string>
+    <string name="txtveja">Veja os brechos mais perto de você!</string>
+    <string name="txtondedoartitle">Onde doar</string>
+    <string name="txtpqdoar">Doar roupas é importante para ajudar pessoas necessitadas. Doar roupas faz a diferença na vida das pessoas e no cuidado com o meio ambiente.</string>
+    <string name="txtcomodoartitle">Como doar?</string>
+    <string name="txtvideo">Dicas para a Doação!</string>
+    <string name="txtcomodoar">Escolha peças em bom estado e limpas. Lave, dobre e embale as roupas adequadamente. </string>
+    <string name="txtondedoar">Onde doar</string>
+    <string name="btnvejamais">Veja mais ></string>
+
+    //Active login
+    <string name="txtlogin">LOGIN</string>
+    <string name="txtnome">  </string>
+    <string name="txtsenha">  </string>
+    <string name="txtEntrarLogin">ENTRAR</string>
+    <string name="txtCadastrase">CADASTRA-SE</string>
+
+    //Active Cadastro
+    <string name="txtCadastro">CADASTRO</string>
+    <string name="txtnomecadastro"> </string>
+    <string name="txtemail"> </string>
+    <string name="txttel"> </string>
+    <string name="txtsenhacadastro"> </string>
+    <string name="btnCadastrar">CADASTRAR</string>
+    <string name="btnlogarse">LOGAR-SE</string>
+
+    //Active Pefil
+    <string name="txtperfil">Perfil</string>
+    <string name="pltOla">Olá,</string>
+    <string name="txtnomeperfil"></string>
+    <string name="txtmeupontos">  Meus pontos:</string>
+    <string name="txtseta">.</string>
+    <string name="txtmeuEMAIL"> Email:</string>
+    <string name="txtminhaSENHA"> Senha:</string>
+    <string name="txtmeuTEL"> Telefone:</string>
+
+    //Active PefilCadastro
+    <string name="txtperfil1">Perfil</string>
+    <string name="pltOla1">Olá,</string>
+    <string name="txtnomeperfil1"></string>
+    <string name="txtmeupontos1">  Meus pontos:</string>
+    <string name="txtseta1">.</string>
+    <string name="txtmeuEMAIL1"> Email:</string>
+    <string name="txtminhaSENHA1"> Senha:</string>
+    <string name="txtmeuTEL1"> Telefone:</string>
+
+    //Active Descontos
+    <string name="txtdescontos">DESCONTOS</string>
+    <string name="txtpontosdesc"> Pontos: 0</string>
+    <string name="txtdescricao"> Veja seus cupons e troque de acordo com os pontos necessarios </string>
+    <string name="mapa"> R. Guaipá, 678 - Vila Leopoldina, São Paulo - SP, 05089-000</string>
+
+    //Active Veja Mais
+    <string name="txttitulo">Tabela de Doação</string>
+
+    <string name="txtOtimo">Ótimo</string>
+    <string name="txtOtimocond"> - Nenhum Furo/Rasgos
+                                 - Semi-Novo </string>
+
+    <string name="txtBom">Bom</string>
+    <string name="txtBomcond"> - Alguns Furos/Rasgos
+                                 - Semi-Novo </string>
+
+    <string name="txtParcialmenteBom">Parcialmente Bom</string>
+    <string name="txtParcialmenteBomcond"> - Com Furos/Rasgos
+                                 - Desgastado</string>
+
+    <string name="txtRuim">Ruim</string>
+    <string name="txtRuimcond"> - Muitos Furos/Rasgos
+                                 - Muito Desgastado</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+</resources>

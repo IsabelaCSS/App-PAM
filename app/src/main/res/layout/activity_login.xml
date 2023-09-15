@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="412dp"
+        android:layout_height="91dp"
+        android:background="#F8C1E3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/btnsobrenos5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#F7C0E2"
+        android:contentDescription="TODO"
+        android:onClick="btnsobrenos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/sobrenos"
+        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtsobrenosrodape5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/txtsobrenosrodape"
+        android:textColor="#C51162"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsobrenos2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId,UnknownIdInLayout,TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnsdoar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#F7C0E2"
+        android:contentDescription="@string/txtdoarrodape"
+        android:onClick="btndoar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view7"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/doar3"
+        tools:ignore="DuplicateSpeakableTextCheck,UnknownIdInLayout,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/txtdoarrodape"
+        android:textColor="@color/pink"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.933"
+        tools:ignore="TextContrastCheck,UnknownIdInLayout" />
+
+    <ImageButton
+        android:id="@+id/btnperfil5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#F7C0E2"
+        android:contentDescription="@string/txtperfilrodape"
+        android:onClick="btnperfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/imagem3"
+        tools:ignore="DuplicateSpeakableTextCheck,UnknownId,UnknownIdInLayout,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/txtperfilrodape"
+        android:textColor="@color/pink"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnperfil2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck,UnknownId,UnknownIdInLayout" />
+
+    <View
+        android:id="@+id/logincadastro"
+        android:layout_width="370dp"
+        android:layout_height="393dp"
+        android:background="@drawable/logincadastro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/txtEntrarLogin"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="sans-serif-black"
+        android:onClick="enviarName"
+        android:text="@string/txtEntrarLogin"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/logincadastro"
+        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
+        app:layout_constraintStart_toStartOf="@+id/logincadastro"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.27"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btncadastrar"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/rosaclaroplus"
+        android:onClick="btncadastrar"
+        android:text="@string/txtCadastrase"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/logincadastro"
+        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
+        app:layout_constraintStart_toStartOf="@+id/logincadastro"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/txtdoar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtlogin"
+        android:textColor="@color/pink"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
+        app:layout_constraintStart_toStartOf="@+id/logincadastro"
+        app:layout_constraintTop_toTopOf="@+id/logincadastro"
+        app:layout_constraintVertical_bias="0.542"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34"
+        app:srcCompat="@drawable/quemsomos"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466"
+        app:srcCompat="@drawable/quemsomos"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtsenhalogin3"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_eye"
+        android:ems="10"
+        android:hint="Senha"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:maxLength="25"
+        android:textColor="@color/black"
+        android:textColorHint="#BABABA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints,SpeakableTextPresentCheck,TextContrastCheck,TouchTargetSizeCheck"
+        tools:text="@string/txtsenha" />
+
+    <EditText
+        android:id="@+id/txtnomelogin"
+        android:layout_width="268dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Nome"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:maxLength="25"
+        android:textColor="@color/black"
+        android:textColorHint="#BABABA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck"
+        tools:text="@string/txtnome" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
