@@ -64,6 +64,8 @@ public class Localizacao extends AppCompatActivity {
             Location locationNetwork = lm.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
             Location locationPassive = lm.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
 
+            //colocando as variaveis nas strings
+
             if(locationGPS != null){
                 double latitude = locationGPS.getLatitude();
                 double longitude = locationGPS.getLongitude();
@@ -87,6 +89,7 @@ public class Localizacao extends AppCompatActivity {
                 lat = String.valueOf(latitude);
                 lon = String.valueOf(longitude);
 
+                //colocando um texto ante de mostrar as coordenadas
                 location.setText("Localização atual:" + "\n" + "Latitude: " + lat + "\n" + "Longitude: " + lon);
             }else{
                 Toast.makeText(this, "Não foi possível pegar a sua localização", Toast.LENGTH_SHORT).show();
@@ -94,7 +97,7 @@ public class Localizacao extends AppCompatActivity {
         }
     }
 
-    //Um alert para ativar o GPS
+    //Um alert (que seria uma permissão do dispositivo) para ativar o GPS
     private void OnGPS() {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Ative o GPS").setCancelable(false).setPositiveButton("YES", (dialogInterface, i) -> startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS))).setNegativeButton("NO", (dialogInterface, i) -> dialogInterface.cancel());
