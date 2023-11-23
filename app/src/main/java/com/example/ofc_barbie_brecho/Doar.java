@@ -1,11 +1,11 @@
 package com.example.ofc_barbie_brecho;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Doar extends AppCompatActivity {
 
@@ -35,14 +35,15 @@ public class Doar extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void mapa(View f) {
-        Uri location = Uri.parse("geo:-23.52004919329812, -46.7276384746785z=14");
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);
-        startActivity(mapIntent);
-    }
     public void Video(View w) {
         Uri uri = Uri.parse("https://www.youtube.com/watch?v=MYL2iQh7apY&ab_channel=DiicasdaFee");
         Intent it = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(it);
     }
+    public void btnlocalizacao(View e) {
+        Intent intent = new Intent(this, Localizacao.class);
+        startActivity(intent);
+    }
+
+
 }

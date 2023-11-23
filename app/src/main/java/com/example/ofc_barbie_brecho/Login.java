@@ -8,6 +8,8 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Login extends AppCompatActivity {
+
+
     public final static String NOME_USUARIO = "com.example.ofc_barbie_brecho.MESSAGE";
 
     @Override
@@ -17,7 +19,7 @@ public class Login extends AppCompatActivity {
     }
     public void enviarName(View name){
         Intent intent = new Intent(this,Perfil.class);
-        EditText nome = (EditText) findViewById(R.id.txtnomelogin);
+        EditText nome = findViewById(R.id.txtnomelogin);
         String message = nome.getText().toString();
         intent.putExtra(NOME_USUARIO,message);
 

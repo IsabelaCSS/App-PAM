@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/rosaclaroplus"
-    tools:context=".Doar" >
+    tools:context=".Doar"
+    tools:ignore="ExtraText">
 
     <View
         android:id="@+id/view3"
@@ -14,36 +15,35 @@
         android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326"
+        app:layout_constraintVertical_bias="0.25"
         tools:ignore="VisualLintBounds" />
 
     <View
         android:id="@+id/view4"
-        android:layout_width="414dp"
-        android:layout_height="153dp"
+        android:layout_width="415dp"
+        android:layout_height="167dp"
         android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/view5"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3"
-        app:layout_constraintVertical_bias="0.411"
+        app:layout_constraintVertical_bias="0.066"
         tools:ignore="VisualLintBounds" />
 
     <View
         android:id="@+id/view5"
-        android:layout_width="414dp"
-        android:layout_height="141dp"
+        android:layout_width="409dp"
+        android:layout_height="153dp"
         android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.138"
         tools:ignore="VisualLintBounds" />
 
     <TextView
@@ -58,40 +58,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view5"
-        app:layout_constraintVertical_bias="0.058"
+        app:layout_constraintVertical_bias="0.048"
         tools:ignore="VisualLintOverlap" />
-
-    <TextView
-        android:id="@+id/mapa"
-        android:layout_width="284dp"
-        android:layout_height="48dp"
-        android:fontFamily="sans-serif"
-        android:onClick="mapa"
-        android:text="@string/mapa"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.44"
-        tools:ignore="TextSizeCheck,VisualLintOverlap" />
-
-    <TextView
-        android:id="@+id/txtveja"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtveja"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.173" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -101,12 +69,29 @@
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintHorizontal_bias="0.876"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.009"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/image__1_"
         tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btnlocalizacao"
+        android:layout_width="245dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="141dp"
+        android:backgroundTint="@color/pink"
+        android:onClick="btnlocalizacao"
+        android:text="@string/btnlocalizacao"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/txtdoar"
@@ -122,6 +107,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026"
+        tools:ignore="TextContrastCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/txtdoar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtdoar"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
         tools:ignore="TextContrastCheck" />
 
     <View
@@ -134,7 +135,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints,VisualLintBounds" />
 
     <ImageButton
@@ -176,9 +177,9 @@
         android:background="@color/white"
         android:contentDescription="@string/txtdoarrodape"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintEnd_toStartOf="@+id/btnperfil2"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toEndOf="@+id/btnsobrenos2"
         app:layout_constraintTop_toTopOf="@+id/view2"
         app:layout_constraintVertical_bias="0.238"
         app:srcCompat="@drawable/doar3"
@@ -242,7 +243,7 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintHorizontal_bias="0.817"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view4"
         app:layout_constraintVertical_bias="0.056"
@@ -256,27 +257,27 @@
         android:text="@string/txtondedoartitle"
         android:textColor="@color/black"
         android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.056" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="259dp"
-        android:layout_height="101dp"
+        android:layout_width="249dp"
+        android:layout_height="113dp"
         android:fontFamily="sans-serif"
         android:text="@string/txtpqdoar"
         android:textColor="@color/black"
         android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.925"
         tools:ignore="TextSizeCheck" />
 
     <TextView
@@ -288,12 +289,12 @@
         android:textAlignment="viewEnd"
         android:textColor="@color/black"
         android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.535"
         tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <ImageView
@@ -301,12 +302,12 @@
         android:layout_width="141dp"
         android:layout_height="146dp"
         android:contentDescription="TODO"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.283"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/barbie5"
         tools:ignore="ContentDescription,HardcodedText" />
 
@@ -320,67 +321,43 @@
         android:text="@string/btnvejamais"
         android:textColor="#C51162"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.985"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:importantForAccessibility="no"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809"
-        app:srcCompat="@android:drawable/arrow_up_float"
-        tools:ignore="ImageContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="153dp"
-        android:layout_height="57dp"
-        android:fontFamily="sans-serif-black"
-        android:onClick="Video"
-        android:text="@string/txtvideo"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.072"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintVertical_bias="0.922"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="24dp"
-        android:layout_height="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:background="@color/design_default_color_error"
+        android:contentDescription="@string/btnlocalizacao"
+        android:onClick="Video"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.054"
-        app:srcCompat="@android:drawable/ic_media_play" />
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.235"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:ignore="ContentDescription,ImageContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="119dp"
-        android:layout_height="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView29"
+        android:layout_width="146dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572"
-        app:srcCompat="@drawable/barbie4" />
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/barbie4"
+        tools:ignore="ContentDescription" />
+
+    //Localização
 
 </androidx.constraintlayout.widget.ConstraintLayout>

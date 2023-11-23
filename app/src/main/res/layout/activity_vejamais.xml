@@ -193,106 +193,106 @@
         android:id="@+id/imageView11"
         android:layout_width="81dp"
         android:layout_height="72dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199"
-        app:srcCompat="@drawable/icons8_vestido_de_casamento_100"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/icons8_vestido_de_casamento_100" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="81dp"
         android:layout_height="72dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintEnd_toStartOf="@+id/textView29"
+        app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415"
+        app:layout_constraintVertical_bias="0.417"
         app:srcCompat="@drawable/icons8_vista_diagonal_do_sapato_feminino_64"
-        android:contentDescription="TODO"
         tools:ignore="ContentDescription,HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="81dp"
         android:layout_height="72dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintEnd_toStartOf="@+id/textView42"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637"
-        app:srcCompat="@drawable/icons8_camiseta_64"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.643"
+        app:srcCompat="@drawable/icons8_camiseta_64" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="81dp"
         android:layout_height="72dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.852"
-        app:srcCompat="@drawable/icons8_cabide_100"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.864"
+        app:srcCompat="@drawable/icons8_cabide_100" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="68dp"
         android:layout_height="104dp"
+        android:contentDescription="@string/todo1"
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.409"
-        app:srcCompat="@drawable/_0pontos"
-        android:contentDescription="@string/todo1" />
+        app:srcCompat="@drawable/_0pontos" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="68dp"
         android:layout_height="104dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toEndOf="@+id/textView42"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.639"
-        app:srcCompat="@drawable/pontos5"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/pontos5" />
 
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="68dp"
         android:layout_height="104dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toEndOf="@+id/textView44"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.88"
-        app:srcCompat="@drawable/_pontos"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/_pontos" />
 
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="68dp"
         android:layout_height="104dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182"
+        app:layout_constraintVertical_bias="0.186"
         app:srcCompat="@drawable/_5pontos"
-        android:contentDescription="TODO"
         tools:ignore="ContentDescription,HardcodedText" />
 
     <TextView
@@ -317,12 +317,12 @@
         android:backgroundTint="@color/rosaclaroplus"
         android:importantForAccessibility="no"
         android:onClick="btnvoltar1"
-        app:layout_constraintBottom_toBottomOf="@+id/view9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintBottom_toTopOf="@+id/vejamais"
+        app:layout_constraintEnd_toStartOf="@+id/textView45"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
+        app:layout_constraintVertical_bias="0.571"
         app:srcCompat="@drawable/icons8_voltar_64__4_"
         tools:ignore="ImageContrastCheck" />
 

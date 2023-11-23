@@ -10,10 +10,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class perfil_cadastro extends AppCompatActivity {
-    static String message;
-    static String msg;
-    static String mensagem;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +28,10 @@ public class perfil_cadastro extends AppCompatActivity {
         nomeText.setText( ""+ nome);
         emailText.setText("Email: " + email);
 
+    }
+    public void btndeslogar(View se) {
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
     }
     public void btnsobrenos(View s) {
         Intent intent = new Intent(this, QuemSomosNos.class);

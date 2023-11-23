@@ -7,6 +7,27 @@
     android:background="@color/rosaclaroplus"
     tools:context=".perfil_cadastro">
 
+    <Button
+        android:id="@+id/btndeslogar2"
+        android:layout_width="178dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="141dp"
+        android:backgroundTint="@color/pink"
+        android:onClick="btndeslogar"
+        android:text="@string/btndeslogar"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.335" />
+
     <ImageView
         android:id="@+id/imageView35"
         android:layout_width="398dp"
@@ -31,19 +52,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.405"
         app:srcCompat="@drawable/quemsomos"
-        tools:ignore="ContentDescription,ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="288dp"
-        android:layout_height="168dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783"
-        app:srcCompat="@drawable/barbietodos"
         tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <TextView

@@ -20,27 +20,27 @@
 
     <View
         android:id="@+id/viewquemsomos7"
-        android:layout_width="366dp"
-        android:layout_height="165dp"
+        android:layout_width="375dp"
+        android:layout_height="180dp"
         android:background="@drawable/quemsomos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.826" />
+        app:layout_constraintTop_toTopOf="@+id/viewquemsomos"
+        app:layout_constraintVertical_bias="0.834" />
 
     <View
         android:id="@+id/viewquemsomos6"
         android:layout_width="369dp"
         android:layout_height="173dp"
         android:background="@drawable/quemsomos"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintTop_toTopOf="@+id/viewquemsomos"
+        app:layout_constraintVertical_bias="0.601" />
 
     <View
         android:id="@+id/viewquemsomos"
@@ -82,13 +82,13 @@
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/sobrenos"
-        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck" />
+        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
     <TextView
         android:id="@+id/txtsobrenosrodape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="48dp"
         android:text="@string/txtsobrenosrodape"
         android:textColor="#C51162"
         android:textSize="12sp"
@@ -96,8 +96,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButton11"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.946"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
         tools:ignore="UnknownId" />
 
     <ImageButton
@@ -110,10 +110,10 @@
         android:onClick="btndoar"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toEndOf="@+id/btnsobrenos"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.058"
         app:srcCompat="@drawable/doar3"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
@@ -127,10 +127,10 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.401"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.946"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toEndOf="@+id/txtsobrenosrodape"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
         tools:ignore="TextContrastCheck" />
 
     <ImageButton
@@ -144,8 +144,8 @@
         android:onClick="btnperfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnsdoar"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/imagem3"
@@ -163,7 +163,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.963"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"
         tools:ignore="TextContrastCheck,UnknownId" />
 
@@ -196,98 +196,104 @@
         app:layout_constraintVertical_bias="0.473"
         tools:ignore="VisualLintOverlap" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="180dp"
+        android:layout_height="172dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewquemsomos5"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/barbie4"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="160dp"
-        android:layout_height="126dp"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
         android:text="@string/txtassistente2"
         android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos6"
         app:layout_constraintEnd_toEndOf="@+id/viewquemsomos6"
-        app:layout_constraintHorizontal_bias="0.203"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/viewquemsomos6"
+        app:layout_constraintTop_toTopOf="@+id/viewquemsomos6"
+        app:layout_constraintVertical_bias="0.423"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="160dp"
-        android:layout_height="100dp"
+        android:layout_width="174dp"
+        android:layout_height="129dp"
         android:text="@string/txtassistente1"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintHorizontal_bias="0.907"
         app:layout_constraintStart_toStartOf="@+id/viewquemsomos5"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231" />
+        app:layout_constraintVertical_bias="0.24"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="236dp"
-        android:layout_height="70dp"
+        android:layout_width="277dp"
+        android:layout_height="81dp"
         android:text="@string/txtassistente3"
-        android:textAlignment="textStart"
         android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="@+id/viewquemsomos7"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.738" />
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewquemsomos7"
+        app:layout_constraintVertical_bias="0.142"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="128dp"
-        android:layout_height="76dp"
+        android:layout_width="153dp"
+        android:layout_height="79dp"
         android:text="@string/txtassistente3.1"
-        android:textAlignment="viewEnd"
         android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintHorizontal_bias="0.899"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.839" />
+        app:layout_constraintTop_toTopOf="@+id/viewquemsomos7"
+        app:layout_constraintVertical_bias="0.851"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="186dp"
-        android:layout_height="162dp"
+        android:layout_width="207dp"
+        android:layout_height="167dp"
         app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/viewquemsomos6"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewquemsomos5"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/barbielendo" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="168dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos5"
-        app:layout_constraintEnd_toEndOf="@+id/viewquemsomos5"
-        app:layout_constraintHorizontal_bias="0.093"
-        app:layout_constraintStart_toStartOf="@+id/viewquemsomos5"
-        app:layout_constraintTop_toTopOf="@+id/viewquemsomos5"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/barbie4" />
+        app:srcCompat="@drawable/barbielendo"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="224dp"
-        android:layout_height="186dp"
+        android:layout_width="290dp"
+        android:layout_height="182dp"
+        android:layout_marginEnd="160dp"
         app:layout_constraintBottom_toBottomOf="@+id/viewquemsomos7"
-        app:layout_constraintEnd_toEndOf="@+id/viewquemsomos7"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/viewquemsomos7"
-        app:layout_constraintVertical_bias="0.428"
-        app:srcCompat="@drawable/barbieconfusa" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/barbieconfusa"
+        tools:ignore="ContentDescription,VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

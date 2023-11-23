@@ -1,6 +1,6 @@
 # BrechoDaBarbieOFC
 
-*Integrantes: Isabela de Oliveira e Jeferson Ayres*
+*Integrantes: Isabela de Oliveira e Barbara Vitoria*
 
 O aplicativo "Brechó da Barbie" tem intuito a conscientização sobre a sustentabilidade. O app é um Projeto de sustentabilidade com intuito a conservar o planeta, onde as roupas são os principais lixos acumulados. Com esse projeto vamos ter de ajuda a não jogar sua roupa bem conservada no lixo e sim doa-lá ou vende-lá. Para exibirmos essas informações vamos abordar os seguintes tópicos: "porque doar", "como doar" e "onde doar". 
 

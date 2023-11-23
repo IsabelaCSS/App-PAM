@@ -142,26 +142,12 @@
         android:text="@string/txtEntrarLogin"
         android:textColor="@color/white"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/logincadastro"
-        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
-        app:layout_constraintStart_toStartOf="@+id/logincadastro"
+        app:layout_constraintBottom_toTopOf="@+id/btncadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView24"
-        app:layout_constraintVertical_bias="0.27"
+        app:layout_constraintVertical_bias="0.633"
         tools:ignore="UnknownId" />
-
-    <Button
-        android:id="@+id/btncadastrar"
-        android:layout_width="168dp"
-        android:layout_height="51dp"
-        android:backgroundTint="@color/rosaclaroplus"
-        android:onClick="btncadastrar"
-        android:text="@string/txtCadastrase"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/logincadastro"
-        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
-        app:layout_constraintStart_toStartOf="@+id/logincadastro"
-        app:layout_constraintTop_toBottomOf="@+id/imageView24"
-        app:layout_constraintVertical_bias="0.92" />
 
     <TextView
         android:id="@+id/txtdoar2"
@@ -171,11 +157,12 @@
         android:text="@string/txtlogin"
         android:textColor="@color/pink"
         android:textSize="45sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView22"
-        app:layout_constraintEnd_toEndOf="@+id/logincadastro"
-        app:layout_constraintStart_toStartOf="@+id/logincadastro"
-        app:layout_constraintTop_toTopOf="@+id/logincadastro"
-        app:layout_constraintVertical_bias="0.542"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
@@ -203,6 +190,21 @@
         app:layout_constraintVertical_bias="0.466"
         app:srcCompat="@drawable/quemsomos"
         tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btncadastrar"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/rosaclaroplus"
+        android:onClick="btncadastrar"
+        android:text="@string/txtCadastrase"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/logincadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.85" />
 
     <EditText
         android:id="@+id/txtsenhalogin3"

@@ -28,6 +28,8 @@
     <string name="txtcomodoar">Escolha peças em bom estado e limpas. Lave, dobre e embale as roupas adequadamente. </string>
     <string name="txtondedoar">Onde doar</string>
     <string name="btnvejamais">Veja mais ></string>
+    <string name="btnlocalizacao">Clique em cima e veja brechos perto de você!</string>
+
 
     //Active login
     <string name="txtlogin">LOGIN</string>
@@ -35,6 +37,7 @@
     <string name="txtsenha">  </string>
     <string name="txtEntrarLogin">ENTRAR</string>
     <string name="txtCadastrase">CADASTRA-SE</string>
+
 
     //Active Cadastro
     <string name="txtCadastro">CADASTRO</string>
@@ -54,6 +57,7 @@
     <string name="txtmeuEMAIL"> Email:</string>
     <string name="txtminhaSENHA"> Senha:</string>
     <string name="txtmeuTEL"> Telefone:</string>
+    <string name="btndeslogar">Deslogar</string>
 
     //Active PefilCadastro
     <string name="txtperfil1">Perfil</string>
@@ -64,12 +68,12 @@
     <string name="txtmeuEMAIL1"> Email:</string>
     <string name="txtminhaSENHA1"> Senha:</string>
     <string name="txtmeuTEL1"> Telefone:</string>
+    <string name="btndeslogarcadastro">Deslogar</string>
 
     //Active Descontos
     <string name="txtdescontos">DESCONTOS</string>
     <string name="txtpontosdesc"> Pontos: 0</string>
     <string name="txtdescricao"> Veja seus cupons e troque de acordo com os pontos necessarios </string>
-    <string name="mapa"> R. Guaipá, 678 - Vila Leopoldina, São Paulo - SP, 05089-000</string>
 
     //Active Veja Mais
     <string name="txttitulo">Tabela de Doação</string>
@@ -91,4 +95,10 @@
                                  - Muito Desgastado</string>
     <string name="todo">TODO</string>
     <string name="todo1">TODO</string>
+
+    <!-- Active Localização -->
+    <string name="txtLocation"></string>
+    <string name="pegarLocalizacao"></string>
+    <string name="btnlocal"></string>
+    <string name="txttitulolocal">Localização</string>
 </resources>

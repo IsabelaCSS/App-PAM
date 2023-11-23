@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Perfil extends AppCompatActivity {
-    static String message;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +19,13 @@ public class Perfil extends AppCompatActivity {
 
         TextView nomeText = (TextView) findViewById(R.id.txtnomeperfil);
         nomeText.setText(message);
-
-
     }
 
-
-
-        public void btnsobrenos(View s) {
+    public void btndeslogar(View se) {
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
+    public void btnsobrenos(View s) {
         Intent intent = new Intent(this, QuemSomosNos.class);
         startActivity(intent);
     }
@@ -38,9 +37,9 @@ public class Perfil extends AppCompatActivity {
         Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
-   public void btnseta1(View se) {
-       Intent intent = new Intent(this, Descontos.class);
-       startActivity(intent);
+    public void btnseta1(View se) {
+        Intent intent = new Intent(this, Descontos.class);
+        startActivity(intent);
     }
 
 }
