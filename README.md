@@ -1,4 +1,5 @@
-# BrechoDaBarbieOFC
+# BrechoDaBarbieOFC 
+(OBS: tudo esta comentado dentro do projeto/app)
 
 *Integrantes: Isabela de Oliveira e Barbara Vitoria*
 
