@@ -17,7 +17,7 @@ public class Perfil extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(Login.NOME_USUARIO);
 
-        TextView nomeText = (TextView) findViewById(R.id.txtnomeperfil);
+        TextView nomeText = findViewById(R.id.txtnomeperfil);
         nomeText.setText(message);
     }
 

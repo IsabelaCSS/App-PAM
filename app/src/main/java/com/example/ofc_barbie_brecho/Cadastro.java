@@ -21,23 +21,20 @@ public class Cadastro extends AppCompatActivity {
 
         Button loginButton = findViewById(R.id.btncadastrarcadastro);
 
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Obtenha o nome e o email inseridos pelo usuário
-                String nome = nomeEdit.getText().toString();
-                String email = emailEdit.getText().toString();
+        loginButton.setOnClickListener(v -> {
+            // Obtenha o nome e o email inseridos pelo usuário
+            String nome = nomeEdit.getText().toString();
+            String email = emailEdit.getText().toString();
 
-                // Crie um Intent
-                Intent intent = new Intent(Cadastro.this, perfil_cadastro.class);
+            // Crie um Intent
+            Intent intent = new Intent(Cadastro.this, perfil_cadastro.class);
 
-                // Adicione o nome e o email como extras no Intent
-                intent.putExtra("nome", nome);
-                intent.putExtra("email", email);
+            // Adicione o nome e o email como extras no Intent
+            intent.putExtra("nome", nome);
+            intent.putExtra("email", email);
 
-                // Inicie a ActivityPerfil
-                startActivity(intent);
-            }
+            // Inicie a ActivityPerfil
+            startActivity(intent);
         });
     }
 
